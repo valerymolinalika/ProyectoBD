@@ -10,7 +10,7 @@
     font-style: normal;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 100px;
     align-items: center;
     color: #EA1F01;
 
@@ -22,34 +22,52 @@ form {
     display: flex;
     flex-direction: column;
     text-align: left;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: blue; */
 }
 
 .logo {
     width: 20%;
-    /* background: url(../images/logo.png); */
+    /* background: url(../images/logo1.png); */
 }
 
-input {
+.input-group {
+    width: 100%;
+    position: relative; 
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/* .input-group input {
+    padding-left: 40px;
     box-sizing: border-box;
-    height: 50px;
+    width: 100%;
+    height: 40px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 20px;
     margin-bottom: 10px;
-}
+} */
 
 button {
     box-sizing: border-box;
     height: 50px;
+    width: 100%;
     background: #EA1F01;
     border: 1px solid #000000;
-    justify-content: center;
     border-radius: 20px;
     font-weight: 700;
     font-size: 30px;
     line-height: 48px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
-    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+
 }
