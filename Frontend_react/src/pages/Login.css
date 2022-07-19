@@ -1,46 +1,44 @@
 .register {
-    position: relative;
-    background: #FFFFFF;
-    width: 100%;
-    height: 100vh;
+	position: relative;
+	background: #ffffff;
+	width: 100%;
+	height: 100vh;
 }
 
-.container {
-    margin-top: 50px;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    color: #EA1F01;
-
-
-    /* background-color: blue;  */
-}
+/* .container {
+	margin-top: 50px;
+	font-style: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	color: #ea1f01;
+	width: 100vw;
+} */
 
 form {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    /* align-items: center; */
-    /* background-color: blue; */
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: center;
+	/* align-items: center; */
+	/* background-color: blue; */
 }
 
 .logo {
-    width: 20%;
-    /* background: url(../images/logo1.png); */
+	width: 20%;
+	/* background: url(../images/logo1.png); */
 }
 
 .input-group {
-    width: 100%;
-    position: relative; 
+	width: 100%;
+	position: relative;
 }
 
 .input-group i {
-    position: absolute;
-    left: 10px;
-    top: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
 }
 
 /* .input-group input {
@@ -55,19 +53,18 @@ form {
 } */
 
 button {
-    box-sizing: border-box;
-    height: 50px;
-    width: 100%;
-    background: #EA1F01;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-
+	box-sizing: border-box;
+	height: 50px;
+	width: 100%;
+	background: #ea1f01;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 30px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import SideBarMenu from '../../components/SideBarMenu';
+import { SideBarMenu, ProfileMenu } from '../../components';
 import { FaSearch } from 'react-icons/fa';
 import Table from '../../components/Table';
 
@@ -26,6 +26,7 @@ const Users = () => {
 	return (
 		<main className="flex">
 			<SideBarMenu />
+			<ProfileMenu />
 
 			<section className="ml-16 bg-white-500 w-screen min-h-screen flex flex-col items-center justify-center">
 				<div className="overflow-x-auto w-4/5">
